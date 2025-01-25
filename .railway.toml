@@ -1,0 +1,7 @@
+[build]
+builder = "nixpacks"
+buildCommand = "composer install"
+
+[deploy]
+startCommand = "php -S 0.0.0.0:$PORT index.php"
+healthcheckPath = "/"
