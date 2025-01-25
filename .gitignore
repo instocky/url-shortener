@@ -1,0 +1,13 @@
+﻿/vendor/
+.env
+*.sqlite
+composer.lock
+logs/*
+
+# Users
+*.pdf
+*.log
+notes.md
+mockup.md
+*.zip
+dev.php

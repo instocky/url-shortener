@@ -1,0 +1,23 @@
+{
+    "name": "claude/url-shortener",
+    "description": "URL shortener service",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Claude\\UrlShortener\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "instocky",
+            "email": "instocky@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "slim/slim": "^4.14",
+        "slim/psr7": "^1.7",
+        "ext-sqlite3": "*"
+    }
+}
